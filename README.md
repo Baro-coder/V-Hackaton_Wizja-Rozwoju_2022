@@ -24,6 +24,11 @@ Za przedstawiony przez nas pomysł nasz zespół otrzymał **wyróżnienie** za 
 
 
 # Projekt
+
+<p align="center">
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/74451381/175019180-fdbfa3a7-7920-4b6b-bc98-ff0f93ed411e.png">
+</p>
+
 ## Założenia:[^goals]
 Opracowany przez nas projekt powstał w celu przeciwdziałania atakom phishinigowym oraz próbom oszustwa w internecie.
 Możliwa wdrożona wersja dedykowana jest dla osób zapracowanych, starszych, tych, którzy nie mają dostatecznej wiedzy
@@ -45,6 +50,11 @@ numer telefonu, numer karty..., wyświetla stosowny komunikat o wykrytej możliw
 użytkownik może zdecydować, czy zechce przy pomocy aplikacji internetowej sprawdzić dany adres, czy to zignorować.
 Jeśli użytkownik zdecyduje się sprawdzić dany link, zostanie przekierowany na stronę aplikacji.
 
+<p align="center">
+  <img width="260" height="300" src="https://user-images.githubusercontent.com/74451381/175020076-2ca3497b-c064-43b7-8120-449551ec9d22.jpg">
+  <img width="470" height="300" src="https://user-images.githubusercontent.com/74451381/175020459-1e4a623c-d66a-4a93-ae9f-3ff707d8d28d.jpg">
+</p>
+
 ### Aplikacja[^app]
 Napisana w technologii **.NET** umożliwia sprawdzenie zadanego przez użytkownika adresu pod względem autentyczności. 
 Proces sprawdzania wykorzystuje możliwości wyrażeń regularnych w połączeniu z bazą danych zgłoszonych adresów.
@@ -58,6 +68,10 @@ Każdy użytkownik ma dostęp do tabeli adresów zgłoszonych i może decydować
 też nie. Jeżeli większość użytkowników stwierdzi, że dany adres jest autentyczny, wówczas przekazywany jest on do tabeli
 adresów autentycznych, a wszyscy użytkownicy, którzy w procesie głosowania wybrali tę opcję otrzymują punkty. Jeśli jednak
 wybrali inaczej, wówczas punkty są im zabierane.
+
+<p align="center">
+  <img width="400" height="440" src="https://user-images.githubusercontent.com/74451381/175021240-6bdc4915-d64b-41b7-9fbb-24eab4e84cf5.png">
+</p>
 
 ### Baza danych[^db]
 Jest ściśle zintegrowana z aplikacją internetową.
