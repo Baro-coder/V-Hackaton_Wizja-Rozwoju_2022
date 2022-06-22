@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheFlowers - Alert!</title>
+    <link rel="stylesheet" href="css/style_popup.css">
+
+</head>
+
+<body>
+    <script src="popup.js"></script>
+    <div id="container" style="text-align: center;">
+        <h1 class="blink">UWAGA!!!</h1>
+        
+        <p>strona o adresie:</p>
+        <p id="f_url" style="color: red"> ... </p>
+        <ul>
+            <li class="lista">może być próbą ataku na twoje dane!</li>
+            <li class="lista">sprawdz czy podawanie w niej danych jest bezpieczne</li>
+            <li class="lista">kliknij w poniższy przycisk w celu wejścia na stronę do weryfikacji</li>
+        </ul>
+      
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <form id="post_url" action="https://localhost:44357/WebForm1.aspx" method="POST">
+            <input hidden type="text" id="address" value="" name="address">
+            <button type="submit">Sprawdź</button>
+        </form>
+        
+    </div>    
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wtyczka_kwiatek</title>
+
+    <style type="text/css">
+    .logo>div,.logo> ul { display: none; }
+    .logo:hover>div,.logo:hover>ul { display: block; }
+    </style>
+
+    <script>
+      chrome.browserAction.onClicked.addListener(function(activeTab)
+      {
+        var newURL = "http://stackoverflow.com/";
+        chrome.tabs.create({ url: newURL });
+      });
+    </script>
+
+</head>
+<link rel="stylesheet" href="css/style_plugin_info.css">
+<body>
+  <div class="container_top">
+    <h1 class="jt --debug">
+      <span class="jt__row">
+      <span class="jt__text">Flowers</span>
+      </span>
+      <span class="jt__row jt__row--sibling" aria-hidden="true">
+      <span class="jt__text">Flowers</span>
+      </span>
+      <span class="jt__row jt__row--sibling" aria-hidden="true">
+      <span class="jt__text">Flowers</span>
+      </span>
+      <span class="jt__row jt__row--sibling" aria-hidden="true">
+      <span class="jt__text">Flowers</span>
+      </span>
+    </h1>
+  </div>
+       <div class="logo">
+        <p>Funkcjonalności</p>
+                <ul>
+                    <li>identyfikacja serwisów, lub "udawanych" serwisów na podstawie adresu</li>
+                    <li>sprawdzenie autentyczności linków - porównanie ze znajomymi autentycznymi oraz zidentyfikowanymi fałszywymi linkami,</li>
+                    <li>rywalizacja użytkowników w oparciu o sprawdzanie zgłoszonych linków</li>
+                    <li>wgląd w spis autentycznych linków</li>
+
+                </ul>
+         </div>
+        
+        <div class="logo">
+        <p>Twórcy</p>
+            <ul>
+                <li><a href="https://github.com/Baro-coder">Bartłomiej Szykuła</a></li>
+                <li><a href="https://github.com/PhilipMichvong">Filip Szpręgiel</a></li>
+                <li><a href="https://github.com/Walu064">Jakub Walczak</a></li>
+                <li><a href="https://github.com/targos123">Piotr Targowski</a></li>
+                
+                
+            </ul>
+        </div>
+
+        <div class="logo">
+        <p>Przyszłe rozwiązania</p>
+        <ul>
+            <li>wersja mobilna</li>
+            <li>automatyzacja zgłoszeń użytkowników</li>
+            <li>rozbudowane forum użytkowników</li>
+        </ul>
+      </div>
+
+        </div>
+          <button id="checkButton" class="glow-on-hover" type="submit">Aplikacja</button>
+        </div>
+      
+</body>
+</html>

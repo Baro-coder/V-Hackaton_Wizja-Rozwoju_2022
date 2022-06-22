@@ -1,0 +1,26 @@
+{
+    "name": "Hakaton_2022",
+    "description": "Wtyczka zabezpieczajaca przed cyber-atakami",
+    "version": "1.2",
+    "manifest_version": 3,
+
+    "permissions": ["storage", "tabs", "webNavigation", "alarms"],
+
+    "background": {
+      "service_worker": "background.js"
+    },
+
+    "content_scripts": [{
+      "matches" : ["*://*/*"],
+      "js": ["content.js"]
+    }],
+
+    "action": {
+      "default_popup": "plugin_info.html",
+      "default_icon": {
+        "16": "/images/plugin_logo_2_16.png",
+        "48": "/images/plugin_logo_2_48.png",
+        "128": "/images/plugin_logo_2_128.png"
+      }
+    }
+  }
