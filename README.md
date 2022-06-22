@@ -19,15 +19,8 @@
 
 ___
 
-# Wyniki[^results]
-Za przedstawiony przez nas pomysł nasz zespół otrzymał **wyróżnienie** za uczestnictwo w konkursie.
-
-
 # Projekt
-
-<p align="center">
-  <img width="400" height="400" src="https://user-images.githubusercontent.com/74451381/175019180-fdbfa3a7-7920-4b6b-bc98-ff0f93ed411e.png">
-</p>
+<img align="left" width="250" height="250" src="https://user-images.githubusercontent.com/74451381/175019180-fdbfa3a7-7920-4b6b-bc98-ff0f93ed411e.png">
 
 ## Założenia:[^goals]
 Opracowany przez nas projekt powstał w celu przeciwdziałania atakom phishinigowym oraz próbom oszustwa w internecie.
@@ -36,6 +29,8 @@ o bezpieczeństwie w internecie, ale zdecydowanie jest to projekt dedykowany oso
 i bezpieczeństwo. Chcieliśmy zadbać o to, by nasz projekt większość profilatyki, takiej jak rozpoznawanie stron
 potencjalnie niebezpiecznych czy weryfikacja autentyczności danego adresu wykonał za użytkownika, aby ten nie musiał
 posiadać specjalistycznej wiedzy informatycznej, by czuć się bezpiecznym w internecie.
+
+___
 
 ## Główne funkcjonalności:[^features]
 1. Identyfikacja stron potencjalnie niebezpiecznych.
@@ -90,6 +85,13 @@ Wykorzystywana jest również w procedurach obsługi kont użytkowników aplikac
 3. **Społeczność** - forum aplikacji, możliwość wymiany zdobywanych punktów na nagrody.
 
 ___
+
+# Wyniki[^results]
+
+<p align="center">
+  Za przedstawiony przez nas pomysł nasz zespół otrzymał <b>wyróżnienie</b> za uczestnictwo w konkursie.</br></br>
+  <img width="300" height="400" src="https://user-images.githubusercontent.com/74451381/175023131-d9e3073e-97c7-489d-8707-207f73dc9bbc.jpg">
+</p>
 
 [^event]: Wydarzenie
 [^team]: Zespół
